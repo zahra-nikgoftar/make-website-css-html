@@ -310,12 +310,19 @@
         margin-right: 3px;
         margin-bottom: 5px;
       }
-      @media (min-width:360px) and (max-width:450){
-       ul li{
-          display: block;
-          margin: 10px 0;
-
-        }
-        
-      }
-      
+   
+@media (max-width:718px){
+  .ul li{
+    display: block;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    background-color: rgb(241, 183, 162);
+    text-align: center;
+  }
+  header section{
+    height: 100%;
+    text-align: center;
+    width: 100%;
+  }
+  
+}

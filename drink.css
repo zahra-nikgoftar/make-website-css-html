@@ -199,27 +199,27 @@ body .container .card .box .content a button:hover {
 .rul{
  border:1px solid black ;
  display: flex; 
- flex-wrap: wrap;
+ /* flex-wrap: wrap; */
  align-items: flex-start;
  text-align: center;
   width: 100vw;
-  height: 400px;
+  height: 20vh;
   background-color: #a57273;
 
 }
-.rul-1 h1{
- display: flex;
- flex-wrap: wrap;
+.rul-1{
  align-items: center;
+ flex-direction: column;
+ justify-content: center;
   margin: 2px;
+ 
+
 }
-.rul-2 p{
+.rul-2{
 
 margin-left:100px;
 border-left:10px solid ;
-display: flex;
-flex-wrap: wrap;
-text-align: center;
+height: 100%;
 }
 
 .footer-distributed{
@@ -329,4 +329,26 @@ text-align: center;
   line-height: 35px;
   margin-right: 3px;
   margin-bottom: 5px;
+}
+@media (max-width: 720px){
+  .rul{
+    height: 100%;
+  }
+
+}
+
+@media (max-width:718px){
+  .ul li{
+    display: block;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    background-color: rgb(241, 183, 162);
+    text-align: center;
+  }
+  header section{
+    height: 100%;
+    text-align: center;
+    width: 100%;
+  }
+  
 }

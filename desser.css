@@ -189,7 +189,7 @@ body .container .card .box .content a button:hover {
   background-color: rgb(246, 213, 188);
  
   border: 1px solid rgba(255, 166, 0, 0.627);
-  height:600px;
+  height:250px;
  text-align:start;
  padding: 5px;
 
@@ -307,4 +307,25 @@ body .container .card .box .content a button:hover {
   line-height: 35px;
   margin-right: 3px;
   margin-bottom: 5px;
+}
+@media (max-width:1024px){
+  .bold{
+    height:100% ;
+  }
+}
+
+@media (max-width:718px){
+  .ul li{
+    display: block;
+    margin: 10px 0 10px 0;
+    padding: 5px;
+    background-color: rgb(241, 183, 162);
+    text-align: center;
+  }
+  header section{
+    height: 100%;
+    text-align: center;
+    width: 100%;
+  }
+  
 }
